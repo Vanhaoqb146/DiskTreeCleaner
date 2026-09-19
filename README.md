@@ -1,4 +1,4 @@
-﻿# DiskTree Cleaner Pro
+# DiskTree Cleaner Pro
 
 <div align="center">
 
@@ -14,7 +14,8 @@
 
 <br />
 
-[**⬇️ TẢI BỘ CÀI ĐẶT MỚI NHẤT (DOWNLOAD v1.4.0)**](https://github.com/Vanhaoqb146/DiskTreeCleaner/releases/download/v1.4.0/DiskTreeCleaner_Setup_1.4.0.exe)
+[**⬇️ TẢI BỘ CÀI ĐẶT MỚI NHẤT (DOWNLOAD v1.5.0)**](https://github.com/Vanhaoqb146/DiskTreeCleaner/releases/download/v1.5.0/DiskTreeCleaner_Setup_1.5.0.exe)
+
 
 </div>
 
@@ -32,25 +33,35 @@
    * Quét đa luồng tốc độ cao hàng triệu tệp tin chỉ trong vài giây.
    * Biểu đồ Treemap tương tác cho phép phóng to, thu nhỏ và nhận diện ngay những thư mục đang chiếm dung lượng khổng lồ.
 
-2. **🧠 Giám Sát & Cảnh Báo Tăng Đột Biến (Smart Storage Watcher):**
-   * Theo dõi biến thiên dung lượng theo các mốc snapshot 7 ngày gần nhất.
-   * Tự động phát hiện và cảnh báo thông minh khi ổ đĩa bị phình to bất thường (> 3 GB) hoặc chạm ngưỡng dung lượng nguy hiểm (< 10%).
+2. **📈 Dòng Thời Gian Biến Động Dung Lượng (Storage Timeline Intelligence - Mới ở v1.5.0):**
+   * So sánh biến thiên chi tiết từng thư mục giữa 2 mốc bất kỳ qua cơ sở dữ liệu SQLite v2.
+   * Cơ chế **Zero False Delta (Chống báo ảo)**: Phân định rõ ràng quét đầy đủ vs quét dở dang, tuyệt đối không tính số liệu ảo gây hoang mang cho người dùng.
+   * Biểu đồ Thác nước (Waterfall Card) trực quan 4 chỉ số: Phát sinh, Giải phóng, Biến thiên ròng, Tỷ lệ xác định.
+   * Ngăn kéo bằng chứng (Evidence Drawer) và công cụ dự báo cạn kiệt ổ đĩa theo thời gian thực.
 
-3. **📊 Bóc Tách Dung Lượng Ứng Dụng (App Storage Intelligence):**
+3. **🔔 Thông Báo Hệ Thống Windows Native (Mới ở v1.5.0):**
+   * Tự động gửi thông báo qua khay hệ thống khi hoàn tất quét trong lúc ứng dụng chạy ngầm hoặc thu nhỏ.
+   * Nhấp vào thông báo sẽ tự động đưa ứng dụng lên và mở thẳng đến trang kết quả.
+
+4. **⚡ Làm Sạch Thùng Rác Lớn Bất Đồng Bộ (Mới ở v1.5.0):**
+   * Cơ chế dọn thùng rác dung lượng lớn hoàn toàn chạy ngầm, không bao giờ gây đơ hay treo máy, hỗ trợ hộp thoại tiến trình và nút hủy an toàn.
+
+5. **📊 Bóc Tách Dung Lượng Ứng Dụng (App Storage Intelligence):**
    * Phân tích chi tiết từng phần mềm đã cài đặt trên Windows.
    * Tách bạch rõ ràng: Dung lượng cài đặt thực tế, Cache tạm thời, Dữ liệu người dùng (User Data) và Registry.
 
-4. **🧑‍💻 Dọn Dẹp Lập Trình Viên & Cache (Developer & Cache Cleaner):**
+6. **🧑‍💻 Dọn Dẹp Lập Trình Viên & Cache (Developer & Cache Cleaner):**
    * Tự động quét và dọn sạch các thư mục nặng hàng chục GB của lập trình viên: `node_modules`, Python `.venv`, `.pytest_cache`, Gradle, Maven, NuGet, Cargo, Docker cache,...
 
-5. **🔍 Quét Tệp Trùng Lặp Chuẩn Xác (Deep Duplicate Finder):**
-   * Áp dụng thuật toán băm SHA-256 đối chiếu byte-to-byte chính xác 100%, không lo xóa nhầm tệp.
+7. **🔍 Quét Tệp Trùng Lặp & Tự Do Lựa Chọn (Deep Duplicate Finder Pro):**
+   * Áp dụng thuật toán băm SHA-256 đối chiếu byte-to-byte chính xác 100%.
+   * Toàn quyền chọn giữ lại hoặc xóa bất kỳ bản sao nào, hỗ trợ mở trực tiếp trong File Explorer.
 
-6. **🛡️ An Toàn Tuyệt Đối & Phục Hồi (Safety & Undo Support):**
+8. **🛡️ An Toàn Tuyệt Đối & Phục Hồi (Safety & Undo Support):**
    * Cơ chế xóa mặc định đưa vào Thùng rác (Recycle Bin) hoặc Cách ly (Quarantine).
    * Có lịch sử dọn dẹp và tính năng hoàn tác (Undo) an toàn.
 
-7. **🌐 Đa Ngôn Ngữ Song Ngữ 100%:**
+9. **🌐 Đa Ngôn Ngữ Song Ngữ 100%:**
    * Chuyển đổi mượt mà tức thì giữa Tiếng Việt và English trực tiếp trong cài đặt.
 
 ---
@@ -61,10 +72,12 @@
 
 ### Key Highlights
 * **High-Speed Treemap & Tree Analyzer:** Interactive hierarchical visualization showing exactly where your disk space went.
-* **Smart Storage Spike Watcher:** 7-day rolling growth analytics with non-intrusive alert banners for sudden drive spikes (> 3 GB).
+* **Storage Timeline Intelligence (New in v1.5.0):** SQLite v2 change tracking between any two snapshots with Zero False Delta protection, visual waterfall cards, and evidence drawer.
+* **Windows Native Notifications (New in v1.5.0):** Background scan completion toasts with 1-click navigation to results.
+* **Non-Blocking Large Recycle Bin Cleaner (New in v1.5.0):** Async recycle bin purging with smooth progress dialog and safe cancellation.
 * **App Storage Intelligence:** Breaks down application footprint into binary size, cache files, user data, and registry entries.
 * **Developer Cleaner:** Reclaims gigabytes from developer environments (`node_modules`, `.venv`, Gradle, Cargo, NuGet, Docker).
-* **Deep Duplicate Finder:** Byte-to-byte SHA-256 deduplication.
+* **Deep Duplicate Finder Pro:** Byte-to-byte SHA-256 deduplication with free selection and instant Explorer integration.
 * **Safe by Design:** Full Recycle Bin integration, rule-based folder protection, and undo history.
 * **100% Bilingual:** Dynamic on-the-fly switching between Vietnamese and English.
 
@@ -73,16 +86,17 @@
 ## 📦 Tải về & Cài đặt (Installation)
 
 1. Tải bản cài đặt chính thức tại [GitHub Releases](https://github.com/Vanhaoqb146/DiskTreeCleaner/releases/latest).
-2. Chạy file `DiskTreeCleaner_Setup_1.4.0.exe` và làm theo chỉ dẫn.
+2. Chạy file `DiskTreeCleaner_Setup_1.5.0.exe` và làm theo chỉ dẫn.
 
 ### 🔒 Đối soát tính toàn vẹn (SHA-256 Checksum)
 Trước khi cài đặt, bạn có thể kiểm tra tính toàn vẹn của tệp tải về trong PowerShell:
 ```powershell
-Get-FileHash -Algorithm SHA256 .\DiskTreeCleaner_Setup_1.4.0.exe
+Get-FileHash -Algorithm SHA256 .\DiskTreeCleaner_Setup_1.5.0.exe
 ```
-* **Bản phát hành:** `v1.4.0`
+* **Bản phát hành:** `v1.5.0`
 * **Mã băm SHA-256 chuẩn:**
-  `053645BA14703BA8115640B71D2CDC4A76CB0DD7870FB7A7342FA297CDADD4DF`
+  `DD8ECDC1BD92D64E9992A324B73D2319C1BFE7983F713EA3A769ED043751226C`
+
 
 ---
 
