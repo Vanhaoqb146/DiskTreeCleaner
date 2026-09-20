@@ -14,7 +14,7 @@
 
 <br />
 
-[**⬇️ TẢI BỘ CÀI ĐẶT MỚI NHẤT (DOWNLOAD v1.5.0)**](https://github.com/Vanhaoqb146/DiskTreeCleaner/releases/download/v1.5.0/DiskTreeCleaner_Setup_1.5.0.exe)
+[**⬇️ TẢI BỘ CÀI ĐẶT MỚI NHẤT (DOWNLOAD v1.5.1)**](https://github.com/Vanhaoqb146/DiskTreeCleaner/releases/download/v1.5.1/DiskTreeCleaner_Setup_1.5.1.exe)
 
 
 </div>
@@ -33,8 +33,9 @@
    * Quét đa luồng tốc độ cao hàng triệu tệp tin chỉ trong vài giây.
    * Biểu đồ Treemap tương tác cho phép phóng to, thu nhỏ và nhận diện ngay những thư mục đang chiếm dung lượng khổng lồ.
 
-2. **📈 Dòng Thời Gian Biến Động Dung Lượng (Storage Timeline Intelligence - Mới ở v1.5.0):**
+2. **📈 Dòng Thời Gian Biến Động Dung Lượng (Storage Timeline Intelligence - Tối ưu vượt bậc ở v1.5.1):**
    * So sánh biến thiên chi tiết từng thư mục giữa 2 mốc bất kỳ qua cơ sở dữ liệu SQLite v2.
+   * **Bộ lọc phát thải thông minh (Smart Filtering) & Lưu trữ 30 ngày**: Thu gọn database SQLite từ 18.5 GB xuống chỉ còn ~17.7 MB, hoàn toàn miễn nhiễm với nguy cơ phình to đĩa và hỗ trợ đọc song song không độ trễ.
    * Cơ chế **Zero False Delta (Chống báo ảo)**: Phân định rõ ràng quét đầy đủ vs quét dở dang, tuyệt đối không tính số liệu ảo gây hoang mang cho người dùng.
    * Biểu đồ Thác nước (Waterfall Card) trực quan 4 chỉ số: Phát sinh, Giải phóng, Biến thiên ròng, Tỷ lệ xác định.
    * Ngăn kéo bằng chứng (Evidence Drawer) và công cụ dự báo cạn kiệt ổ đĩa theo thời gian thực.
@@ -86,16 +87,17 @@
 ## 📦 Tải về & Cài đặt (Installation)
 
 1. Tải bản cài đặt chính thức tại [GitHub Releases](https://github.com/Vanhaoqb146/DiskTreeCleaner/releases/latest).
-2. Chạy file `DiskTreeCleaner_Setup_1.5.0.exe` và làm theo chỉ dẫn.
+2. Chạy file `DiskTreeCleaner_Setup_1.5.1.exe` và làm theo chỉ dẫn.
 
 ### 🔒 Đối soát tính toàn vẹn (SHA-256 Checksum)
 Trước khi cài đặt, bạn có thể kiểm tra tính toàn vẹn của tệp tải về trong PowerShell:
 ```powershell
-Get-FileHash -Algorithm SHA256 .\DiskTreeCleaner_Setup_1.5.0.exe
+Get-FileHash -Algorithm SHA256 .\DiskTreeCleaner_Setup_1.5.1.exe
 ```
-* **Bản phát hành:** `v1.5.0`
+* **Bản phát hành:** `v1.5.1`
 * **Mã băm SHA-256 chuẩn:**
-  `DD8ECDC1BD92D64E9992A324B73D2319C1BFE7983F713EA3A769ED043751226C`
+  `7793AEFCA8822064482264AB5C05A286E362936117365278840174D682692FB3`
+
 
 
 ---
