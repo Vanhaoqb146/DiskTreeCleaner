@@ -96,7 +96,7 @@ Get-FileHash -Algorithm SHA256 .\DiskTreeCleaner_Setup_1.5.1.exe
 ```
 * **Bản phát hành:** `v1.5.1`
 * **Mã băm SHA-256 chuẩn:**
-  `7793AEFCA8822064482264AB5C05A286E362936117365278840174D682692FB3`
+  `422ABDE8130D7EC74E864D6D99BD7E8FFD2FB0A804E85AC598AAEA801F9D812A`
 
 > ### ⚠️ Lưu ý khi cài đặt trên Windows 11 / Windows 10
 > 
