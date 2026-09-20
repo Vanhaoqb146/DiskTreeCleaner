@@ -98,9 +98,14 @@ Get-FileHash -Algorithm SHA256 .\DiskTreeCleaner_Setup_1.5.1.exe
 * **Mã băm SHA-256 chuẩn:**
   `7793AEFCA8822064482264AB5C05A286E362936117365278840174D682692FB3`
 
+> ### ⚠️ Lưu ý khi cài đặt trên Windows 11 / Windows 10
+> 
+> * **Nếu gặp thông báo SmartScreen ("Windows protected your PC")**:
+>   Nhấp chuột vào dòng **"More info"** (Thông tin thêm) ➔ Bấm nút **"Run anyway"** (Vẫn chạy) để hoàn tất cài đặt.
+> 
+> * **Nếu bị tính năng Smart App Control (SAC) trên Windows 11 chặn**:
+>   Do phần mềm mới phát hành chưa có chứng chỉ số mở rộng của Microsoft, Windows 11 có thể tự động chặn. Bạn hãy vào **Cài đặt Windows (Settings)** ➔ **Privacy & Security** ➔ **Windows Security** ➔ **App & browser control** ➔ Chọn **Smart App Control** và chuyển sang **Off** (Tắt) hoặc **Evaluation** trước khi tiến hành cài đặt.
 
-
----
 
 ## 💻 Yêu cầu hệ thống (System Requirements)
 
