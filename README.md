@@ -14,7 +14,7 @@
 
 <br />
 
-[**⬇️ TẢI BỘ CÀI ĐẶT MỚI NHẤT (DOWNLOAD v1.5.1)**](https://github.com/Vanhaoqb146/DiskTreeCleaner/releases/download/v1.5.1/DiskTreeCleaner_Setup_1.5.1.exe)
+[**⬇️ TẢI BỘ CÀI ĐẶT MỚI NHẤT (DOWNLOAD v2.0.0)**](https://github.com/Vanhaoqb146/DiskTreeCleaner/releases/download/v2.0.0/DiskTreeCleaner_Setup_2.0.0.exe)
 
 
 </div>
@@ -87,12 +87,12 @@
 ## 📦 Tải về & Cài đặt (Installation)
 
 1. Tải bản cài đặt chính thức tại [GitHub Releases](https://github.com/Vanhaoqb146/DiskTreeCleaner/releases/latest).
-2. Chạy file `DiskTreeCleaner_Setup_1.5.1.exe` và làm theo chỉ dẫn.
+2. Chạy file `DiskTreeCleaner_Setup_2.0.0.exe` và làm theo chỉ dẫn.
 
 ### 🔒 Đối soát tính toàn vẹn (SHA-256 Checksum)
 Trước khi cài đặt, bạn có thể kiểm tra tính toàn vẹn của tệp tải về trong PowerShell:
 ```powershell
-Get-FileHash -Algorithm SHA256 .\DiskTreeCleaner_Setup_1.5.1.exe
+Get-FileHash -Algorithm SHA256 .\DiskTreeCleaner_Setup_2.0.0.exe
 ```
 * **Bản phát hành:** `v1.5.1`
 * **Mã băm SHA-256 chuẩn:**
